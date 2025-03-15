@@ -1,8 +1,8 @@
 .hero-wrapper {
-  background-color: var(--black);
+ 
   color: white;
   position: relative;
-  padding: 0.2rem 2rem;
+  padding: 3rem 2rem;
 }
 .hero-container {
   justify-content: space-between;
@@ -20,6 +20,7 @@
   border: 3px solid rgb(120, 120, 120, 0.374);
   padding: 0.5rem 1rem;
   justify-content: space-between;
+  width: 100%;
 }
 .search-bar > input {
   border: none;
@@ -45,6 +46,20 @@
   font-weight: 600;
   font-size: 3.8rem;
   line-height: 4rem;
+}
+
+.stats{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.stat>:nth-child(1){
+  font-size: 2rem;
+
+}
+
+.stat>:nth-child(1)>:last-child{
+  color: orange;
 }
 
 /* right side  */
