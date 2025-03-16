@@ -9,6 +9,8 @@ import { MdOutlineArrowDropDown } from 'react-icons/md'
 import './value.css'
 
 const value = () => {
+    console.log();
+    
     return (
 
         <section className='v-wrapper'>
