@@ -6,7 +6,6 @@ import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
 
 const residencies = () => {
-  console.log(sliderSettings, "sahil");
   return (
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">
@@ -35,8 +34,6 @@ const residencies = () => {
   );
 };
 
-export default residencies;
-
 const SliderButton = () => {
   const swiper = useSwiper()
   return (
@@ -46,3 +43,5 @@ const SliderButton = () => {
     </div>
   )
 }
+export default residencies;
+

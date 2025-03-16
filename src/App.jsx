@@ -2,6 +2,7 @@ import Headers from "./components/Headers/headers";
 import Hero from "./components/Hero/hero";
 import Companies from './components/Companies/companies'
 import Residencies from "./components/Residencies/residencies";
+import Value from "./components/Value/value";
 import "./app.css";
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
         <Headers />
         <Hero />
       </div>
-      <Companies/>
-      <Residencies/>
+      <Companies />
+      <Residencies />
+      <Value />
     </div>
+
   );
 }
 
