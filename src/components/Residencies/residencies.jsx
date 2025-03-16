@@ -4,6 +4,7 @@ import "swiper/css";
 import "./residencies.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
+import { color } from "framer-motion";
 
 const residencies = () => {
   return (
@@ -13,18 +14,18 @@ const residencies = () => {
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residences</span>
         </div>
-        <Swiper {...sliderSettings}  >
+        <Swiper {...sliderSettings}>
           <SliderButton />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className=" flexColStart r-card ">
                 <img src={card.image} alt="home"></img>
                 <span className=" secondaryText r-price">
-                  <span style={{ color: "black" }}>$</span>
+                  <span style={{ color: "orange" }}>$</span>
                   <span>{card.price}</span>
                 </span>
                 <snap className="primaryText">{card.name}</snap>
-                <snap className="secondaryText">{card.detail}</snap>
+                <snap style={{ color: "black" }}>{card.detail}</snap>
               </div>
             </SwiperSlide>
           ))}
@@ -35,13 +36,12 @@ const residencies = () => {
 };
 
 const SliderButton = () => {
-  const swiper = useSwiper()
+  const swiper = useSwiper();
   return (
     <div className="flexCenter r-buttons ">
       <button onClick={() => swiper.slidePrev()}>&lt;</button>
       <button onClick={() => swiper.slideNext()}>&gt;</button>
     </div>
-  )
-}
+  );
+};
 export default residencies;
-
