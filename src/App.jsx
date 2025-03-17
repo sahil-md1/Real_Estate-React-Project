@@ -1,6 +1,6 @@
 import Headers from "./components/Headers/headers";
 import Hero from "./components/Hero/hero";
-import Companies from './components/Companies/companies'
+import Companies from "./components/Companies/companies";
 import Residencies from "./components/Residencies/residencies";
 import Value from "./components/Value/value";
 import Contact from "./components/Contact/contact";
@@ -17,9 +17,8 @@ function App() {
       <Companies />
       <Residencies />
       <Value />
-      <Contact/>
+      <Contact />
     </div>
-
   );
 }
 
