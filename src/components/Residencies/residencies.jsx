@@ -44,4 +44,4 @@ const SliderButton = () => {
     </div>
   );
 };
-export default residencies;
+ export default residencies;

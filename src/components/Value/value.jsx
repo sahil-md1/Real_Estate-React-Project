@@ -40,8 +40,7 @@ const value = () => {
           >
             {data.map((items, idx) => {
               const [className, setClassName] = useState(false);
-              console.log(className, "sahil");
-
+              // console.log(className, "sahil");
               return (
                 <AccordionItem
                   className={`accordianItem ${className}`}
@@ -59,11 +58,11 @@ const value = () => {
                       </AccordionItemState>
                       <div className="flexCenter icons">{items.icon}</div>
                       <span className="primaryText">{items.heading}</span>
-                      <dic className="flexCenter icons">
+                      <div className="flexCenter icons">
                         <MdOutlineArrowDropDown
                           size={20}
                         ></MdOutlineArrowDropDown>
-                      </dic>
+                      </div>
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
