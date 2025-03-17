@@ -10,12 +10,13 @@ const hero = () => {
         <div className="hero-left flexColStart">
           <div className="hero-title">
             <div className="orange-circel" />
-            <div style={{fontSize: 70}}>
+            {/* <div style={{fontSize: 70 , fontWeight: "bold"}} > */}
+            <h1>
               Discover <br />
               more suitable <br />
               property
-            </div>
-
+            </h1>
+            {/* </div> */}
           </div>
           <div className="hero-des flexColStart secondaryText">
             <span>Find a variety of property that suits you very easilty</span>
