@@ -5,6 +5,7 @@ const footer = () => {
   return (
     <div>
       checkin
+      eee
     </div>
   )
 }
