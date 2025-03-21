@@ -4,7 +4,8 @@ const footer = () => {
   console.log("object")
   return (
     <div>
-      checkin
+      checkinewwe
+      ew
       eee
     </div>
   )
