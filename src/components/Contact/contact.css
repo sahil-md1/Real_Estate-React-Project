@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.c-container > div {
+.c-container> div {
   flex: 1;
 }
 .c-right {
@@ -12,6 +12,7 @@
   justify-content: end;
 }
 .c-right .image-container {
+  width: fit-content;
   border: 8px solid lightgray 
 }
 
