@@ -21,7 +21,7 @@ const hearders = () => {
         >
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpen)}>
             <a href="">Resedencies</a>
-            <a href="">Our Value</a>
+            <a href="">Our Values</a>
             <a href="">Contact Us</a>
             <a href="">Get Started</a>
             <button className="button">
